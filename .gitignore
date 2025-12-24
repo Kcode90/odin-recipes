@@ -1,0 +1,25 @@
+# Ignorar carpetas comunes de compilación y VS
+[Bb]in/
+[Oo]bj/
+*.pdb
+*.suo
+*.user
+
+# Archivos de la extensión Live Server (VS Code)
+.vscode/
+**/.vscode/
+.live-server/ 
+
+# Posibles archivos de backup o temporales
+*.tmp
+*copy of*
+
+# Carpetas comunes de Node/JavaScript
+/node_modules
+
+# Archivos de la extensión Live Server (si la usas)
+.vscode/
+
+# Archivos de compilación o de sistema
+*.log
+.DS_Store
